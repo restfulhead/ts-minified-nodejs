@@ -1,0 +1,26 @@
+{
+  "name": "ts-minified-nodejs",
+  "version": "0.0.0",
+  "description": "Example to build minified backend apis",
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "dependencies": {
+    "winston": "^2.4.3",
+    "source-map-support": "^0.5.8"
+  },
+  "devDependencies": {
+    "@types/node": "^10.7.0",
+    "@types/winston": "^2.3.9",
+    "ts-loader": "^4.4.2",
+    "ts-node": "^6.1.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.10.2",
+    "webpack-command": "^0.2.0"
+  }
+}

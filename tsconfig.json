@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": ["es2017"],
+    "strict": true,
+    //    "allowSyntheticDefaultImports": true,
+    //    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "jsx": "react",
+    // change this to any hyperscript like function that you're using
+    "jsxFactory": "React.createElement",
+    "sourceMap": true,
+    "outDir": "lib",
+    "stripInternal": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
